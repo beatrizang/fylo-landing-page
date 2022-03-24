@@ -24,9 +24,13 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+- Header
 ![](./images/screenshot/1.png)
+
+- Middle
 ![](./images/screenshot/2.png)
+
+- Footer
 ![](./images/screenshot/3.png)
 
 
