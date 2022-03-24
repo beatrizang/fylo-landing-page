@@ -1,0 +1,56 @@
+.early-access {
+    @include display-row;
+    background-color: $desaturated-blue;
+    padding: 5em 2em;
+     
+    .early-access-text {
+        color: white;
+        width: 33em;
+        h2 {
+            padding-bottom: 1em;
+        }
+    }
+
+    .bottom-email {
+        padding-left: 15em;
+    }
+
+    .bottom-email form {
+        @include display-column;
+        padding: 1em 0;
+    }
+     
+    [type="email"]{
+        width: 30em;
+        margin-bottom: 1em;
+    }
+
+    [type="submit"]{
+        width: 15em;
+    }
+
+}
+
+@media only screen and (max-width: 1260px){
+    .early-access {
+        @include display-column;
+        text-align: center;
+
+        .early-access-text {
+            width: 90%;
+        }
+
+        .bottom-email {
+            padding-left: 0;
+        }
+        
+        [type="email"]{
+            width: 90%;
+        
+        }
+    
+        [type="submit"]{
+            width: 90%;
+        }
+}
+}

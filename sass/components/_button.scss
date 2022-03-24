@@ -1,0 +1,14 @@
+.button {
+    background-color: $bright-blue;
+    font-family: $font-head;
+    font-weight: $weight-head-max;
+    color: white;
+    border: none;
+    padding: 0.8em 3em;
+    border-radius: 0.2em;
+}
+
+.button:hover {
+    background-color: $light-bright-blue;
+    cursor: pointer;
+}

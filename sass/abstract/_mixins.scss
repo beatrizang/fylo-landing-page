@@ -1,0 +1,25 @@
+@mixin display-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin display-column {
+    display: flex;
+    flex-direction: column; 
+}
+
+@mixin display-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@mixin display-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@mixin shadow-section {
+    box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.1);
+}

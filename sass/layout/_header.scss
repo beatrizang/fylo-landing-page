@@ -1,0 +1,18 @@
+header {
+    @include display-row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 1em;
+    nav ul {
+        @include display-row;
+        margin-right: 1em;
+    }
+
+    li a{
+        margin: 1em;
+        text-decoration: none;
+        color: $very-dark-blue;
+    }
+
+}
+
